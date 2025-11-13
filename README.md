@@ -118,3 +118,159 @@ Data Analytics, BI Development, Data Science, and Machine Learning.
 │── 📁 Images/
 │     ├── summary.png
 │     ├── kpi_page.png
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Healthcare Provider Analytics – Power BI Dashboard
+📊 Project Overview
+
+This project presents an interactive Power BI dashboard built using a healthcare provider dataset.
+The goal of the dashboard is to analyze key metrics related to patient visits, diagnoses, procedures, providers, and insurance usage. The insights help stakeholders understand healthcare service performance, patient trends, and operational bottlenecks.
+
+The dataset consists of multiple CSV files, including:
+
+visits.csv
+
+patients.csv
+
+providers.csv
+
+procedures.csv
+
+diagnoses.csv
+
+departments.csv
+
+cities.csv
+
+insurance.csv
+
+Each file contains structured information that collectively enables a holistic view of healthcare operations.
+
+🎯 Objectives
+
+To visualize healthcare provider performance and patient interactions.
+
+To understand visit volume trends across cities, departments, and time.
+
+To analyze diagnoses and procedure distributions.
+
+To study patient demographics and insurance company contributions.
+
+To enable data-driven decision-making for hospital or clinic management.
+
+🗂 Dataset Description
+File	Description
+visits.csv	Records of patient visits including date, provider, department, and associated codes.
+patients.csv	Demographic information such as age, gender, and patient identifiers.
+providers.csv	Details of healthcare providers (physicians, specialists, etc.).
+diagnoses.csv	Diagnosis codes and descriptions logged during patient visits.
+procedures.csv	Medical procedures performed and their categorization.
+departments.csv	Hospital or clinic departments.
+cities.csv	Geographical information related to patient or provider locations.
+insurance.csv	Details of insurance companies and patient coverage.
+🛠️ Tools & Technologies
+
+Power BI Desktop
+
+DAX (Data Analysis Expressions)
+
+Power Query (ETL)
+
+CSV structured datasets
+
+📈 Dashboard Features
+1. Patient Visit Analysis
+
+Total visits, monthly trends, and peak activity times
+
+City-wise and department-wise visit distribution
+
+2. Provider Performance
+
+Provider workload (visits handled)
+
+Comparative performance across departments
+
+3. Diagnosis Insights
+
+Top diagnoses
+
+Diagnosis category distribution
+
+Patient groups commonly affected
+
+4. Procedure Statistics
+
+Most common procedures performed
+
+Cost or frequency breakdown (if available)
+
+5. Patient Demographics
+
+Age distribution
+
+Gender ratio
+
+City-level patient concentration
+
+6. Insurance Utilization
+
+Visits by insurance provider
+
+Coverage distribution
+
+📦 Data Cleaning & Transformation (ETL)
+
+Handled missing and inconsistent values
+
+Normalized data across multiple tables
+
+Created relationships between fact and dimension tables
+
+Added calculated columns and DAX measures (e.g., Visit Count, Monthly Trend, Top Diagnoses)
+
+📉 Insights Generated
+
+Some example insights derived from the dashboard:
+
+Identification of high-volume departments and busiest providers
+
+Common diagnosis patterns and procedure utilization
+
+Patient demographic trends supporting targeted healthcare programs
+
+Insurance company contribution to overall patient visits
+
+City-level disparities in healthcare access
+
+📁 Project Structure
+/Healthcare-Provider-PowerBI
+│── Data/
+│    ├── visits.csv
+│    ├── patients.csv
+│    ├── providers.csv
+│    ├── diagnoses.csv
+│    ├── procedures.csv
+│    ├── departments.csv
+│    ├── cities.csv
+│    └── insurance.csv
+│
+│── PowerBI/
+│    └── HealthcareDashboard.pbix
+│
+└── README.md
+
+🚀 How to Use
+
+Download the dataset and .pbix file.
+
+Open the file in Power BI Desktop.
+
+Refresh data if needed.
+
+Navigate through the dashboards using the tabs at the bottom.
+
+📌 Conclusion
+
+This Power BI project provides a powerful analytical tool for understanding healthcare system performance.
+It helps decision-makers improve resource allocation, optimize patient care, and identify key operational issues
